@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Nested Vertical and Horizontal Sliders</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            overflow: hidden; /* Prevent default scrolling */
+        }
+        .swiper-container {
+            overflow: hidden; /* Ensure Swiper containers don't allow scrolling */
+        }
+    </style>
+    <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TKKWBBJW');</script>
+    <!-- End Google Tag Manager -->
+</head>
+<body class="m-0 p-0 h-screen overflow-hidden">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKKWBBJW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="swiper-container vertical-swiper h-full">
+        <div class="swiper-wrapper">
+            <!-- SLIDE-1 -->
+            <div class="swiper-slide vertical-slide flex justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-top" style="background-image: url('PRESENTATION_WEB_BG.png');">
+            <div class="flex flex-col items-center justify-center h-full w-full">
+                <img src="LOGO-BOAI.png" alt="Logo" class=" p-16">
+                <div class="bg-orange-500 text-white p-4 text-center w-full">
+                    <p class="text-xl">empower businesses with 
+                    </p>
+                    <h1 class="text-3xl font-bold">Scalable, <br> High-Performance
+                        Video Ads
+                        </h1>
+                    
+                </div>
+            </div>
+            </div>
+            <!-- SLIDE-2 -->
+            <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png');">
+            <div class="absolute top-0 left-0 m-4">
+                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+            </div>
+            <h1 class="text-orange-500 text-4xl font-bold mb-4">USE CASES</h1>
+            <div class="bg-black text-white rounded-lg p-4 mb-4 w-[90%]">
+                <h2 class="font-poppins text-2xl font-bold text-center">Video Ads</h2>
+                <h3 class="font-poppins text-lg  text-center pb-1">for Performance Marketing
+                </h3>
+                <p class="font-poppins text-sm text-center font-light text-[#b3b3b3]">transform existing video clips into <br>
+                    video ads optimized for high performance
+                </p>
+                    </p>
+            </div>
+           
+            <div class="bg-black text-white rounded-lg p-4 mb-4 w-[90%]">
+                <h2 class="font-poppins text-2xl font-bold text-center">Catalog Video Ads            </h2>
+                <h3 class="font-poppins text-lg  text-center pb-1">Photos -> Video Ads
+
+                </h3>
+                <p class="font-poppins text-sm text-center font-light text-[#b3b3b3]">turn existing product photos <br>
+                    into engaging video ads
+                    
+                </p>
+                    </p>
+            </div>
+            <div class="bg-black text-white rounded-lg p-4 mb-4 w-[90%]">
+                <h2 class="font-poppins text-2xl font-bold text-center">Video Ad Versioning
+                </h2>
+                <h3 class="font-poppins text-lg  text-center pb-1">for Targeted Marketing
+                </h3>
+                <p class="font-poppins text-sm text-center font-light text-[#b3b3b3]">multiple variations of video ads <br>
+                    tailored to each customer persona
+                    
+                </p>
+                    </p>
+            </div>
+            <div class="bg-black text-white rounded-lg p-4 mb-4 w-[90%]">
+                <h2 class="font-poppins text-2xl font-bold text-center">Omnichannel Ready                 </h2>
+                <h3 class="font-poppins text-lg  text-center pb-1">for Marketing across Channels
+                </h3>
+                <p class="font-poppins text-sm text-center font-light text-[#b3b3b3]">high performing, platform-optimized video<br> ads for seamless marketing
+
+                    
+                </p>
+                    </p>
+            </div>
+            </div>
+            <!-- SLIDE-3 -->
+            <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center">
+                <div class="swiper-container horizontal-swiper w-full h-full">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                            <div class="absolute top-0 left-0 m-4">
+                                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                            </div>
+                            <h1 class="text-orange-500 text-3xl font-bold ">VIDEO ADs</h1>
+                            <h2 class="text-white font-poppins text-lg text-center mb-4">for performance marketing</h2>
+                            <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                                <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                    <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Nnow_VideoAd_Before.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            
+                            <p class="text-white text-lg font-light text-gray-200 mt-4">before</p>
+                            <div class="absolute right-0 mr-2">
+                                <span class="h-20 w-16 text-gray-200 text-4xl ">&gt;</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                            <div class="absolute top-0 left-0 m-4">
+                                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                            </div>
+                            <h1 class="text-orange-500 text-3xl font-bold ">VIDEO ADs</h1>
+                            <h2 class="text-white font-poppins text-lg text-center mb-4">for performance marketing</h2>
+
+                            <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                                <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                    <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Nnow_VideoAd_After.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            
+                            <p class="text-white text-lg font-light text-gray-200 mt-4">after</p>
+                            <div class="absolute left-0 ml-2">
+                                <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- SLIDE-4 -->                
+            <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center">
+                <div class="swiper-container horizontal-swiper w-full h-full">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                            <div class="absolute top-0 left-0 m-4">
+                                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                            </div>
+                            <h1 class="text-orange-500 text-3xl font-bold ">CATALOG VIDEO ADs</h1>
+                            <h2 class="text-white font-poppins text-lg text-center mb-4">Photos -> Video Ads </h2>
+                            <h1 class="text-white text-2xl font-bold mb-4"></h1>
+
+                            <div class="relative w-[80%]" style="padding-bottom: 116.78%;">
+                                <img src="Catlog_ad1_before.png" alt="Catalog Video Ad" class="absolute top-0 left-0 w-full h-full object-contain">
+                            </div>
+                            
+                            <p class="text-white text-lg font-light text-gray-200 mt-4">before</p>
+                            <div class="absolute right-0 mr-2">
+                                <span class="h-16 w-16 text-white text-4xl">&gt;</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                            <div class="absolute top-0 left-0 m-4">
+                                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                            </div>
+                            <h1 class="text-orange-500 text-3xl font-bold ">CATALOG VIDEO ADs</h1>
+                            <h2 class="text-white font-poppins text-lg text-center mb-4">Photos -> Video Ads </h2>
+
+                            <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                                <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                    <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Nnow_PoloAd_After.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            
+                            <p class="text-white text-lg font-light text-gray-200 mt-4">after</p>
+                            <div class="absolute left-0 ml-2">
+                                <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- SLIDE-4.1 -->                
+                       <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center">
+                        <div class="swiper-container horizontal-swiper w-full h-full">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                                    <div class="absolute top-0 left-0 m-4">
+                                        <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                                    </div>
+                                    <h1 class="text-orange-500 text-3xl font-bold ">CATALOG VIDEO ADs</h1>
+                                    <h2 class="text-white font-poppins text-lg text-center mb-4">Photos -> Video Ads </h2>
+                                    <h1 class="text-white text-2xl font-bold mb-4"></h1>
+        
+                                    <div class="relative w-[80%]" style="padding-bottom: 116.78%;">
+                                        <img src="Catlog_ad2_before.png" alt="Catalog Video Ad" class="absolute top-0 left-0 w-full h-full object-contain">
+                                    </div>
+                                    
+                                    <p class="text-white text-lg font-light text-gray-200 mt-4">before</p>
+                                    <div class="absolute right-0 mr-2">
+                                        <span class="h-16 w-16 text-white text-4xl">&gt;</span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                                    <div class="absolute top-0 left-0 m-4">
+                                        <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                                    </div>
+                                    <h1 class="text-orange-500 text-3xl font-bold ">CATALOG VIDEO ADs</h1>
+                                    <h2 class="text-white font-poppins text-lg text-center mb-4">Photos -> Video Ads </h2>
+        
+                                    <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                                        <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                            <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Nnow_PoloAd2_After.mp4" type="video/mp4">
+                                            Your browser does not support the video tag.
+                                        </video>
+                                    </div>
+                                    
+                                    <p class="text-white text-lg font-light text-gray-200 mt-4">after</p>
+                                    <div class="absolute left-0 ml-2">
+                                        <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+            <!-- SLIDE-5 -->  
+            <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center">
+                <div class="swiper-container horizontal-swiper w-full h-full">
+                    <div class="swiper-wrapper">
+                       
+                        <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                            <div class="absolute top-0 left-0 m-4">
+                                <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                            </div>
+
+                            <h1 class="text-orange-500 text-3xl font-bold ">VIDEO AD VERSIONING</h1>
+                            <h2 class="text-white font-poppins text-lg text-center ">for Targeted Marketing </h2>
+                            <h3 class="text-gray-300 font-poppins text-xs text-center mb-4">Brand: Flying Machine, Collection: Cobain </h3>
+
+                            <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                                <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                    <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Flying Machine_Men Online.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            
+                            <p class="text-white text-lg font-light text-gray-200 mt-4">Men Online</p>
+                            <div class="absolute right-0 mr-2">
+                                <span class="h-16 w-16 text-white text-4xl">&gt;</span>
+                            </div>
+                        </div>
+                    
+                    
+                
+                    <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                        <div class="absolute top-0 left-0 m-4">
+                            <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                        </div>
+                        <h1 class="text-orange-500 text-3xl font-bold ">VIDEO AD VERSIONING</h1>
+                        <h2 class="text-white font-poppins text-lg text-center ">for Targeted Marketing </h2>
+                        <h3 class="text-gray-300 font-poppins text-xs text-center mb-4">Brand: Flying Machine, Collection: Cobain </h3>
+
+                        <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                            <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Flying Machine_Women Online.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <p class="text-white text-lg font-light text-gray-200 mt-4">Women Online</p>
+                        <div class="absolute right-0 mr-2">
+                            <span class="h-16 w-16 text-white text-4xl">&gt;</span>
+                        </div>
+                        <div class="absolute left-0 ml-2">
+                            <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                        <div class="absolute top-0 left-0 m-4">
+                            <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                        </div>
+                        <h1 class="text-orange-500 text-3xl font-bold ">VIDEO AD VERSIONING</h1>
+                        <h2 class="text-white font-poppins text-lg text-center ">for Targeted Marketing </h2>
+                        <h3 class="text-gray-300 font-poppins text-xs text-center mb-4">Brand: Flying Machine, Collection: Cobain </h3>
+
+                        <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                            <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Flying Machine_Men Offline.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <p class="text-white text-lg font-light text-gray-200 mt-4">Men Offline</p>
+                        <div class="absolute right-0 mr-2">
+                            <span class="h-16 w-16 text-white text-4xl">&gt;</span>
+                        </div>
+                        <div class="absolute left-0 ml-2">
+                            <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide horizontal-slide flex flex-col justify-center items-center text-sm sm:text-base md:text-lg lg:text-xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png'); width: 100vw; height: 100vh;">
+                        <div class="absolute top-0 left-0 m-4">
+                            <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                        </div>
+                        <h1 class="text-orange-500 text-3xl font-bold ">VIDEO AD VERSIONING</h1>
+                        <h2 class="text-white font-poppins text-lg text-center ">for Targeted Marketing </h2>
+                        <h3 class="text-gray-300 font-poppins text-xs text-center mb-4">Brand: Flying Machine, Collection: Cobain </h3>
+
+                        <div class="relative w-[80%]" style="padding-bottom: 142.78%;">
+                            <video controls class="absolute top-0 left-0 w-full h-full z-50">
+                                <source src="https://s3.ap-south-1.amazonaws.com/blinkofai.io/NNNowPitch/Flying Machine_Women Offline.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        
+                        <p class="text-white text-lg mt-4">Women Offline</p>
+                        <div class="absolute left-0 ml-4">
+                            <span class="h-16 w-16 text-white text-4xl">&lt;</span>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+            <!-- SLIDE-6 -->
+            <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png');">
+                <div class="absolute top-0 left-0 m-4">
+                    <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                </div>
+                <h1 class="text-orange-500 text-3xl font-bold mb-12 -mt-2">DISRUPTIVE PRICING!
+                </h1>
+        <div class="flex flex-col items-center justify-center w-full bg-black p-8" >
+            <h1 class="text-orange-500 text-3xl font-bold mb-2">₹ 500 - ₹ 1,000
+            </h1>
+            <h2 class="text-white text-lg">per video ad creation
+            </h2>
+        </div>
+        </div>
+                <!-- SLIDE-7 -->
+                <div class="swiper-slide vertical-slide flex flex-col justify-center items-center text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png');">
+                    <div class="absolute top-0 left-0 m-4">
+                        <img src="LOGO-BOAI.png" alt="Small Logo" class="h-16 w-16">
+                    </div>
+                    <h1 class="text-orange-500 text-3xl font-bold mb-12 -mt-2">TEAM-WHY US!
+                    </h1>
+                    <p class="text-white  text-xs font-light font-poppins text-center w-[90%] mb-2">
+                        With over <span class="text-orange-500"> decade of expertise in brand media </span>,<br> BlinkofAI evolved from One Fine Day into <br>a game-changing product empowering businesses.
+                    </p>
+                    <p class="text-white text-xs font-light font-poppins text-center w-[90%]">
+                        We’re working with <span class="text-orange-500">a unicorn and a listed company</span>, and we’re excited to work our magic with Arvind Mills.
+                    </p>
+
+            <div class="flex justify-center items-center mt-4 w-full">
+                <img src="Team.png" alt="Team" class="h-auto w-auto">
+            </div>
+            </div>
+                            <!-- SLIDE-8 -->
+                            <div class="swiper-slide vertical-slide flex flex-col justify-center items-end text-lg sm:text-xl md:text-2xl lg:text-3xl bg-cover bg-center" style="background-image: url('PRESENTATION_WEB_BG.png');">
+                                <div class="absolute top-0 left-0 m-8">
+                                    <img src="LOGO-BOAI.png" alt="Small Logo" class="h-36 w-36">
+                                </div>
+
+                                
+                                
+                                <p class="text-white text-lg font-light font-poppins text-right w-[60%] border-t-[1px] pt-2  mr-8 border-gray-500">
+                                    Join hands to disrupt your <br>digital marketing
+<br><br>
+                                    sandeep@blinkofai.io <br>+91-9503959358
+                                </p>
+            
+                        </div>
+
+
+        
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var verticalSwiper = new Swiper('.vertical-swiper', {
+            direction: 'vertical',
+            mousewheel: true, // Enable mousewheel control
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+
+        var horizontalSwiper = new Swiper('.horizontal-swiper', {
+            nested: true, // Enable nested swipers
+            mousewheel: true, // Enable mousewheel control
+            keyboard: {
+                enabled: true,
+                onlyInViewport: false,
+            },
+        });
+
+        // Existing video playback code
+        document.addEventListener('DOMContentLoaded', function() {
+            const videos = document.querySelectorAll('video');
+
+            videos.forEach(video => {
+                video.addEventListener('play', function() {
+                    videos.forEach(v => {
+                        if (v !== video) {
+                            v.pause();
+                        }
+                    });
+                });
+            });
+        });
+
+        // Prevent default scrolling behavior
+        document.addEventListener('wheel', function(e) {
+            e.preventDefault();
+        }, { passive: false });
+
+        document.addEventListener('touchmove', function(e) {
+            e.preventDefault();
+        }, { passive: false });
+    </script>
+</body>
+</html>
